@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+	background-color: black;
+	
+}
+.h1{
+	color: white;
+	text-align: center;
+}
+.body2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+

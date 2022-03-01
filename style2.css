@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.center{
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.textfade {
+	-webkit-animation: fadein 10s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to{ opacity: 1; }
+}
+
+body{
+	text-align: left;
+	color: darkslateblue;
+	font-size: 20px;
+	transition-delay: 20s;
+}
+.blank{
+	color: whitesmoke;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+body{
+	background-color: whitesmoke
+} 
+
+.maintext{
+	text-align: center;
+	animation-name: fadein;
+	opacity: 0;
+	animation: fadein 1s forwards;
+	animation-delay: 1s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to{ opacity: 1; }
+}
+.head2{
+	text-align: right;
+}
+.h3{
+text-align: right
+	
+}

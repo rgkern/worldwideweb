@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.h1{
+	text-align: left;
+	color: darkslateblue	
+}
+body{
+	background-color: darkgray
+}
+
+.h3{
+text-align: right
+}
+
+.body2{
+	text-align: center;
+	color: darkslateblue;
+	font-size: 20px
+}
+
+.textfade {
+	animation-name: fadein;
+	opacity: 0;
+	animation: fadein 1s forwards;
+	animation-delay: 1s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to{ opacity: 1; }
+}
+.h5{
+	color: darkgray;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}

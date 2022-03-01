@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.center{
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+.textfade {
+	animation-name: fadein;
+	opacity: 0;
+	animation: fadein 1s forwards;
+	animation-delay: 3s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to{ opacity: 1; }
+}
+
+
+body{
+	text-align: left;
+	color: darkslateblue;
+	font-size: 20px;
+	transition-delay: 20s;
+}
+
+
+.body2{
+	text-align: right;
+	text-align: bottom;
+	color: darkslateblue;
+	font-size: 20px
+}
+.textfade2 {
+	-webkit-animation: fadein 10s;
+}
+
+@keyframes fadein {
+	from { opacity: 0;}
+	to{ opacity: 1; }
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+.h3{
+text-align: right
+	
+}

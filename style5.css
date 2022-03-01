@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.body{
+	text-align: center;
+	color: darkslateblue;
+}
+.h5{
+	color: grey;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+body{
+	background-color: grey;
+}
+.h3{
+	text-align: right;
+	
+}
